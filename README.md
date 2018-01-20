@@ -13,7 +13,7 @@
 
 ## Troubleshooting
 
-Normally it should be enough to perform the steps in the previous steps, but in case of problems:
+* Normally it should be enough to perform the steps in the previous steps, but in case of problems:
 	* compiling problems: restore nuget packages,
 	* styling problems: open command line in the project's main directory (where `bower.json` is located) and run `bower install`
 	* restart Visual Studio,
