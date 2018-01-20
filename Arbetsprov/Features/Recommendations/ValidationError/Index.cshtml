@@ -1,0 +1,13 @@
+﻿@model Arbetsprov.Features.Recommendations.ValidationError.ValidationErrorViewModel
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="alert alert-danger" role="alert">
+                <h4 class="alert-heading">Oh snap!</h4>
+                <p>@Model.ErrorMessage</p>
+                <p>Click @Html.ActionLink("HERE", "Index", "Home") to go back and set your music preferences again.</p>
+            </div>
+        </div>
+    </div>
+</div>

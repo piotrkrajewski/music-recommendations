@@ -1,0 +1,10 @@
+﻿.recommendation {
+    padding: 1em;
+    text-align: center;
+}
+
+.recommendation__title {
+    height: 3.6em;
+    line-height: 1.2em;
+    overflow: hidden;
+}

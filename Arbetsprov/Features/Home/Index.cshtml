@@ -1,0 +1,23 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Get your music recommendations</h1>
+            <hr/>
+
+            <h3>Tell us your favourite artists or music genres</h3>
+
+            <form role="search" method="post" action="recommendations">
+                <div class="form-group">
+                    <select class="js-search-box" name="preferedMusic[]" multiple="multiple"></select>
+                </div>
+
+                <div class="form-group">
+                    <span>Music energy: <span class="slider-value">100</span>%</span>
+                    <input name="energy" class="slider" data-slider-id="energy" type="text" />
+                </div>
+
+                <button class="btn btn-primary" type="submit">Get recommandations!</button>
+            </form>
+        </div>
+    </div>
+</div>
